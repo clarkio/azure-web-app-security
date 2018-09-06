@@ -1,6 +1,10 @@
 # azure-web-app-security
 A place to record and save details on my learnings in securing web based applications (in general JavaScript) in Azure
 
+## TODO
+- [ ] figure out how to run and test authentication locally with azure functions
+- [ ] figure out how to run and test authentication locally with node.js api (to be hosted in app service)
+
 ## Authentication
 
 ### Azure Functions
