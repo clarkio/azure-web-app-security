@@ -31,7 +31,17 @@ This documentation was helpful to figure out possible query parameters on login 
 
 6. Under “Allowed External Redirect URLs” add the callback URLs you plan to use.
     
-    Example: http://localhost:3000/
-    > Note: at the time of this writing (9/5/2018) you cannot add “localhost” in the domain and instead need to use “127.0.0.1”
+    Example: http://127.0.0.1:3000/ and see note below
+    > Note: Use 127.0.0.1 instead of localhost. At the time of this writing (9/5/2018) you cannot add “localhost” due to input validation in the portal
 
 7. Update CORS for your client application domain
+
+    Example: http://127.0.0.1:3000/
+    
+8. 
+    
+   
+#### Corresponding Azure Docs
+- [Login with Twitter](https://docs.microsoft.com/en-us/azure/app-service/app-service-mobile-how-to-configure-twitter-authentication)
+- [Login with Microsoft Account](https://docs.microsoft.com/en-us/azure/app-service/app-service-mobile-how-to-configure-microsoft-authentication)
+- [Login Customization and Logout Details](https://docs.microsoft.com/en-us/azure/app-service/app-service-authentication-how-to)
