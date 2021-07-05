@@ -13,7 +13,7 @@ This uses App Service behind the scenes and configuring for Azure Functions is a
 **Notes:**
 > Authentication/Authorization not supported for Linux yet. Must choose Windows when create a new Azure Functions App
 
-> Had to follow this post to figure out how to easily connect the authentication with Twitter to a web app and the Azure Function: [link](https://blogs.msdn.microsoft.com/stuartleeks/2018/02/19/azure-functions-and-app-service-authentication/)
+> Had to follow this post to figure out how to easily connect the authentication with Twitter to a web app and the Azure Function: [link](https://blogs.msdn.microsoft.com/stuartleeks/2018/02/19/azure-functions-and-app-service-authentication/?WT.mc_id=academic-0000-brcl)
 
 > Maybe need this SDK in the client? [link](https://github.com/Azure/azure-mobile-apps-js-client)
 
@@ -46,6 +46,6 @@ This documentation was helpful to figure out possible query parameters on login 
     
    
 #### Corresponding Azure Docs
-- [Login with Twitter](https://docs.microsoft.com/en-us/azure/app-service/app-service-mobile-how-to-configure-twitter-authentication)
-- [Login with Microsoft Account](https://docs.microsoft.com/en-us/azure/app-service/app-service-mobile-how-to-configure-microsoft-authentication)
-- [Login Customization and Logout Details](https://docs.microsoft.com/en-us/azure/app-service/app-service-authentication-how-to)
+- [Login with Twitter](https://docs.microsoft.com/azure/app-service/app-service-mobile-how-to-configure-twitter-authentication?WT.mc_id=academic-0000-brcl)
+- [Login with Microsoft Account](https://docs.microsoft.com/azure/app-service/app-service-mobile-how-to-configure-microsoft-authentication?WT.mc_id=academic-0000-brcl)
+- [Login Customization and Logout Details](https://docs.microsoft.com/azure/app-service/app-service-authentication-how-to?WT.mc_id=academic-0000-brcl)
